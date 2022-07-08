@@ -3,6 +3,11 @@ import React from "react";
 import { Modal, Container, Table, Button } from "react-bootstrap";
 
 export default function ModalUsers(props) {
+  const usis = {
+    name:'This is a test',
+    import:  true
+    }
+  console.log(usis.name)
   return (
     <Modal
       {...props}
