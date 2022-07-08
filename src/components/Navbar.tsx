@@ -35,28 +35,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
-/*{users.map((user) => (
-  <>
-  <tr
-    data-toggle="collapse"
-    className="accordion-toggle"
-  >
-    <td>{user.name}</td>
-    <td>{user.username}</td>
-    <td>{user.email}</td>
-    <button className="btn btn-secondary btn-circle">
-      <Eye />
-    </button>
-  </tr>
-  <tr>
-  <td colspan="6" class="hiddenRow">
-    <div className="accordian-body collapse">
-      Demo2
-    </div>
-  </td>
-</tr>
-  </>
-
-  
-))}*/
