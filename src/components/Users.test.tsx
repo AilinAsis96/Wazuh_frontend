@@ -12,11 +12,6 @@ describe('<Users/>',()=>{
         <Users>
         </Users>)
     })
-
-    test('renders its children', ()=>{
-        expect(component.container.querySelector('.testDiv')).toBeDefined()
-    })
-
     test('renders its children', ()=>{
         const el= component.getByText('Id')
         expect(el).toHaveClass('sortable')
