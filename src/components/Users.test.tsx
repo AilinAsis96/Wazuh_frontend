@@ -7,14 +7,9 @@ import Users from './Users';
 describe('<Users/>',()=>{
     let component;
 
-    beforeEach(()=>{
-        component = render(
-        <Users>
-        </Users>)
-    })
-    test('renders its children', ()=>{
-        const el= component.getByText('Id')
-        expect(el).toHaveClass('sortable')
-    })
+    test("renders content", () => {
+
+        const component = render(<Users/>);
+      });
 })
 
